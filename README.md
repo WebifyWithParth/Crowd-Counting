@@ -5,12 +5,6 @@
 An open-source PyTorch code for crowd counting
 
 ---
-
-**Note: Due to personal reasons, the code will not continue to be maintained. I suggest you use [NWPU-Crowd-Sample-Code](https://github.com/gjy3035/NWPU-Crowd-Sample-Code) or use other excellent code in [Awesome-Crowd-Counting](https://github.com/gjy3035/Awesome-Crowd-Counting).** 
-
-## Technical Blog
-- [2019.05] [Chinese Blog] C^3 Framework系列之一：一个基于PyTorch的开源人群计数框架 [[Link](https://zhuanlan.zhihu.com/p/65650998)]
-
 ## Goal
 
 The purpose of this code is an efficient, flexible framework for supervised crowd counting. At the same time, we provide the performances of some basic networks and classic algorithms on the mainstream datasets.
@@ -76,7 +70,7 @@ Due to limited spare time and the number of GPUs, I do not plan to conduct some 
 - Installation
   - Clone this repo:
     ```
-    git clone https://github.com/gjy3035/C-3-Framework.git
+    git clone https://github.com/WebifyWithParth/C-3-Framework.git
     ```
 
 - Data Preparation
@@ -118,23 +112,3 @@ Considering the large-scale GCC, we provide the pretrained models on GCC using r
 ## Tips
 
 In this code, the validation is directly on the test set. Strictly speaking, it should be evaluated on the val set (randomly selected from the training set, which is adopted in the paper). Here, for a comparable reproduction (namely fixed splitting sets), this code directly adopts the test set for validation, which causes that the results of this code are better than that of our paper. If you use this repo for academic research, you need to select 10% training data (or other value) as validation set. 
-
-## Citation
-If you find this project is useful for your research, please cite:
-```
-@inproceedings{wang2019learning,
-  title={Learning from Synthetic Data for Crowd Counting in the Wild},
-  author={Wang, Qi and Gao, Junyu and Lin, Wei and Yuan, Yuan},
-  booktitle={Proceedings of IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-  pages-{8198--8207},
-  year={2019}
-}
-```
-```
-@article{gao2019c,
-  title={C$^3$ Framework: An Open-source PyTorch Code for Crowd Counting},
-  author={Gao, Junyu and Lin, Wei and Zhao, Bin and Wang, Dong and Gao, Chenyu and Wen, Jun},
-  journal={arXiv preprint arXiv:1907.02724},
-  year={2019}
-}
-```
