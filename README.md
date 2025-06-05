@@ -12,7 +12,7 @@ The purpose of this code is an efficient, flexible framework for supervised crow
 
 ## Features
 - **Convenient development kit**. It is a convenient dev kit on the six maintream datasets.
-- **Solid baselines**. It provides some baselines of some classic pre-trained models, such as AlexNet, VGG, ResNet and so on. Base on it, you can easily compare your proposed models' effects with them.
+- **Solid baselines**. It provides some baselines of some classic pre-trained models, such as AlexNet, VGG, ResNet and so on.  Base on it, you can easily compare your proposed models' effects with them.
 - **Powerful log**. It does not only record the loss, visualization in Tensorboard, but also save the current code package (including parameters settings). The saved code package can be directly ran to reproduce the experiments at any time. You won't be bothered by forgetting the confused parameters.
 
 
