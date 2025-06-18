@@ -2,7 +2,7 @@
 
 # Python 3 dev version!
 
-An open-source PyTorch code for crowd counting
+An open-source PyTorch code for crowd counting 
 
 ---
 ## Goal
