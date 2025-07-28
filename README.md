@@ -9,7 +9,6 @@ An open-source PyTorch code for crowd counting
 
 The purpose of this code is an efficient, flexible framework for supervised crowd counting. At the same time, we provide the performances of some basic networks and classic algorithms on the mainstream datasets.
 
-
 ## Features
 - **Convenient development kit**. It is a convenient dev kit on the six maintream datasets.
 - **Solid baselines**. It provides some baselines of some classic pre-trained models, such as AlexNet, VGG, ResNet and so on. Base on it, you can easily compare your proposed models' effects with them.
